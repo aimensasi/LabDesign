@@ -1,0 +1,22 @@
+*{
+	outline: o !important;
+}
+
+body{
+	font-family: $font-Regular;
+	font-size: 1rem;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+ $i: $heading-size;
+@for $item from 1 to 6 {
+
+	h#{$item}{
+		font-size: $heading-size;
+		font-family: $font-Bold;
+	}
+
+	$i: $i - 0.4rem;
+}
+

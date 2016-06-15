@@ -1,0 +1,208 @@
+@font-face {
+  font-family: 'Lato-Hairline';
+  src: url("../fonts/Lato-Hairline.ttf");
+}
+@font-face {
+  font-family: 'Lato-Light';
+  src: url("../fonts/Lato-Light.ttf");
+}
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url("../fonts/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: 'Lato-Semibold';
+  src: url("../fonts/Lato-Semibold.ttf");
+}
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url("../fonts/Lato-Bold.ttf");
+}
+* {
+  outline: o !important;
+}
+
+body {
+  font-family: "Lato-Regular", sans-serif;
+  font-size: 1rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: "Lato-Bold", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Lato-Bold", sans-serif;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: "Lato-Bold", sans-serif;
+}
+
+h4 {
+  font-size: 2rem;
+  font-family: "Lato-Bold", sans-serif;
+}
+
+h5 {
+  font-size: 2rem;
+  font-family: "Lato-Bold", sans-serif;
+}
+
+.header {
+  background: #fff url("../images/bg.png");
+  background-position: center center;
+  background-size: cover cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 80px 0;
+}
+.header .logo {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+.header .title {
+  font-size: 3.5rem;
+  line-height: 5rem;
+  color: #fff;
+  font-family: "Lato-Semibold", sans-serif;
+}
+.header .leads {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 2rem 0 13rem;
+}
+
+.about, .services, .job, .contact {
+  padding: 80px 0;
+  color: #3c3c3c;
+}
+.about .text-box, .services .text-box, .job .text-box, .contact .text-box {
+  width: 70%;
+  padding: 3rem 8rem 2rem;
+  text-align: center;
+  margin: 0 auto;
+  border: thin solid #3c3c3c;
+  border-top: none;
+  position: relative;
+}
+.about .text-box .title, .services .text-box .title, .job .text-box .title, .contact .text-box .title {
+  position: absolute;
+  top: -20px;
+  left: 40%;
+}
+.about .text-box .title::after, .services .text-box .title::after, .job .text-box .title::after, .contact .text-box .title::after {
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 250px;
+  background: #3c3c3c;
+  top: 19px;
+  left: 216px;
+}
+.about .text-box .title::before, .services .text-box .title::before, .job .text-box .title::before, .contact .text-box .title::before {
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: 250px;
+  background: #3c3c3c;
+  top: 19px;
+  right: 205px;
+}
+
+.services {
+  background: #fff url("../images/bg-2.png");
+  background-position: center center;
+  background-size: cover cover;
+  background-repeat: no-repeat;
+  padding: 120px 0;
+}
+
+.about .text-box .title::before {
+  right: 222px;
+}
+
+.job {
+  padding: 80px 0;
+}
+.job .text-box .title {
+  left: 36%;
+}
+.job .text-box .title::before, .job .text-box .title::after {
+  width: 180px;
+}
+.job .text-box .title::before {
+  right: 317px;
+}
+.job .text-box .title::after {
+  left: 317px;
+}
+.job .text-box .text-wrapper {
+  padding: 2rem 3rem;
+}
+.job .text-box .text-wrapper .sec-title {
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+  color: #3c3c3c;
+}
+.job .text-box .text-wrapper .leads {
+  font-size: .9rem;
+  font-family: "Lato-Light", sans-serif;
+}
+
+.contact {
+  padding-bottom: 40px;
+}
+.contact .text-box {
+  width: 45%;
+}
+.contact .text-box .title {
+  left: 37%;
+}
+.contact .text-box .title::before, .contact .text-box .title::after {
+  width: 180px;
+}
+.contact .text-box .title::before {
+  right: 326px;
+}
+.contact .text-box .title::after {
+  left: 340.5px;
+}
+.contact .text-box .leads {
+  font-family: "Lato-Light", sans-serif;
+}
+.contact .text-box .btn {
+  width: 300px;
+  height: 45px;
+  border-radius: 0;
+  background-color: #3c3c3c;
+  color: #bdbdbd;
+}
+.contact .footer {
+  text-align: center;
+  margin-top: 3rem;
+}
+.contact .footer .c-rights {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.work {
+  padding: 80px 0;
+}
+.work .thumbnail {
+  padding: 0 0 10px 10px;
+  position: relative;
+}
+.work .thumbnail .overlay-text {
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+  color: #fff;
+  font-family: "Lato-Regular", sans-serif;
+}

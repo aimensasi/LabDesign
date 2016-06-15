@@ -1,0 +1,7 @@
+
+@mixin bgImage($img){
+	background: #fff url($img);
+	background-position: center center;
+	background-size: cover cover;
+	background-repeat: no-repeat;
+}

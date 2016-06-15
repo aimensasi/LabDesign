@@ -1,0 +1,31 @@
+
+@font-face {
+	font-family: 'Lato-Hairline';
+	src: url('../fonts/Lato-Hairline.ttf');
+}
+@font-face {
+	font-family: 'Lato-Light';
+	src: url('../fonts/Lato-Light.ttf');
+}
+@font-face {
+	font-family: 'Lato-Regular';
+	src: url('../fonts/Lato-Regular.ttf');
+}
+@font-face {
+	font-family: 'Lato-Semibold';
+	src: url('../fonts/Lato-Semibold.ttf');
+}
+@font-face {
+	font-family: 'Lato-Bold';
+	src: url('../fonts/Lato-Bold.ttf');
+}
+
+$font-Thin: 'Lato-Hairline', sans-serif;
+$font-Light: 'Lato-Light', sans-serif;
+$font-Regular: 'Lato-Regular', sans-serif;
+$font-Semibold: 'Lato-Semibold', sans-serif;
+$font-Bold: 'Lato-Bold', sans-serif;
+
+$text-color: #3c3c3c;
+
+$heading-size: 2rem;

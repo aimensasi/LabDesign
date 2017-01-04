@@ -1,5 +1,4 @@
 ## Design Lab 
 
-### A simple Portfolio Landing Page 
 
-#### Sass Practice Day 2
+Site Url: http://designlab-salted.s3-website-ap-southeast-1.amazonaws.com/
